@@ -3,36 +3,36 @@
 Articles Dashboard Dashboard App is a a simple platform consists of two user types (Editor, Writer) where they has the ablity to create, edit, and publish an articles.
 
 ## Functional Requirements
-- Writer
-    -Actions:
-        -Create article (on click submit, must automatically set Article Status Field to "For Edit"), 
-        -Edit an unpublish article (can only edit articles where Status is "For Edit") 
-    -Pages:
-        -Writer's Dashboard
-            -must show 2 list of articles: For Edit (Status is "For Edit") and Published (Status is "Published")
-            -Each item of For Edit Articles list must show a badge or status of the article.
-            -Each item of both lists must display the following fields: Image, Title, Link, Date, Writer Name and Editor Name
-        -All Media
-            -show all articles being created in tabular display and must show the following columns: 
-                actions (includes the edit action), image, title, link, writer, editor, status 
-            -RESTRICT the writer to edit a published article
+### Writer
+         Actions:
+            [x] Create article (on click submit, must automatically set Article Status Field to "For Edit"), 
+            [x] Edit an unpublish article (can only edit articles where Status is "For Edit") 
+         Pages:
+              Writer's Dashboard
+                  [x] Must show 2 list of articles: For Edit (Status is "For Edit") and Published (Status is "Published")
+                  [x] Each item of For Edit Articles list must show a badge or status of the article.
+                  [x] Each item of both lists must display the following fields: Image, Title, Link, Date, Writer Name and Editor Name
+              All Media
+                [x] Show all articles being created in tabular display and must show the following columns: 
+                      actions (includes the edit action), image, title, link, writer, editor, status 
+                [x]RESTRICT the writer to edit a published article
 
-- Editor 
-    -Actions: 
-        -Edit and Publish articles 
-            -In Edit Article Form, there must be 2 buttons "Save" and "Publish", 
-            where if clicked on Save, will update the record 
-            else if clicked on Publish, will update the record and also sets the Status to "Publish"
-        -Ability to manage users (create and updating)
-        -Ability to mange companies (create and updating)
-    -Pages: 
-        -Editor's Dashboard
-            -must show 2 list of articles: For Publish (Status is "For Edit") and Published (Status is "Published")
-            -Each item of both lists must display the following fields: Image, Title, Link, Date, Writer Name and Editor Name
-        -All Media
-            -show all articles being created in tabular display and must show the following columns: 
-            actions (includes the edit action), image, title, link, writer, editor, status 
-            -RESTRICT the writer to edit a published article
+### Editor
+        Actions: 
+            [x] Edit and Publish articles 
+            [x] In Edit Article Form, there must be 2 buttons "Save" and "Publish", 
+                where if clicked on Save, will update the record 
+                else if clicked on Publish, will update the record and also sets the Status to "Publish"
+            [x] Ability to manage users (create and updating)
+            [x] Ability to mange companies (create and updating)
+        Pages: 
+            Editor's Dashboard
+                [x] Must show 2 list of articles: For Publish (Status is "For Edit") and Published (Status is "Published")
+                [x] Each item of both lists must display the following fields: Image, Title, Link, Date, Writer Name and Editor Name
+            All Media
+                [x] Show all articles being created in tabular display and must show the following columns: 
+                        actions (includes the edit action), image, title, link, writer, editor, status 
+                [x] RESTRICT the writer to edit a published article
 
 ## About the Developer
 This is a Coding Solution for Articles Dashboard App of Kieffer John M. Navarro.
