@@ -124,3 +124,5 @@ php artisan serve
 ```
 
 - Visit http://localhost:8000 in your browser.
+> [!IMPORTANT]
+> The default password generated from the seeder is always 'password'.
